@@ -1,11 +1,11 @@
 # Cake Crawler
 
-A full-stack application for scraping and displaying cake recipes from the web.
+A full-stack application. 
+Crawls and scrapes the internet for all the cake recipies & displays them cleanly on the web. 
 
 ## Project Structure
 
 ```
-luncher_stockholm/
 ├── cake_scraper/          # Python Scrapy backend
 │   ├── cake_scraper/      # Scrapy spider and pipelines
 │   └── data/              # Scraped recipe data (JSON)
