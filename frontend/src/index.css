@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/* Cabagges Design System */
+
+@layer base {
+  :root {
+    --background: 47 35% 92%;
+    --foreground: 150 30% 20%;
+
+    --card: 47 35% 92%;
+    --card-foreground: 150 30% 20%;
+
+    --popover: 47 35% 92%;
+    --popover-foreground: 150 30% 20%;
+
+    --primary: 150 55% 36%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 90 45% 85%;
+    --secondary-foreground: 150 55% 30%;
+
+    --muted: 47 25% 88%;
+    --muted-foreground: 150 15% 50%;
+
+    --accent: 90 50% 82%;
+    --accent-foreground: 150 55% 30%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 47 20% 85%;
+    --input: 47 20% 85%;
+    --ring: 150 55% 36%;
+
+    --radius: 1rem;
+
+    /* Custom cabagges tokens */
+    --cabagges-cream: 47 35% 92%;
+    --cabagges-green: 150 55% 36%;
+    --cabagges-green-light: 90 50% 82%;
+    --cabagges-green-dark: 150 55% 28%;
+    --cabagges-pill: 100 45% 88%;
+    --cabagges-text: 150 30% 20%;
+    --cabagges-text-muted: 150 15% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
